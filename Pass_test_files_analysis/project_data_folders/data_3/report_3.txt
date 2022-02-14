@@ -1,0 +1,648 @@
+Processing SRR5633034 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633034/SRR5633034_1.fastq.gz
+
+08/27 04:13:56 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633034/SRR5633034_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:13:56 [[1;32mNOTICE[0m] Download GID#eaae26b09e36b96c not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633034/SRR5633034_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+eaae26|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633034/SRR5633034_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633034/SRR5633034_2.fastq.gz
+
+08/27 04:13:57 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633034/SRR5633034_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:13:57 [[1;32mNOTICE[0m] Download GID#4117fa6c6b2b1028 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633034/SRR5633034_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+4117fa|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633034/SRR5633034_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633035 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/005/SRR5633035/SRR5633035_1.fastq.gz
+
+08/27 04:13:58 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/005/SRR5633035/SRR5633035_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:13:58 [[1;32mNOTICE[0m] Download GID#4b6076e8659bc1a6 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633035/SRR5633035_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+4b6076|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633035/SRR5633035_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/005/SRR5633035/SRR5633035_2.fastq.gz
+
+08/27 04:13:59 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/005/SRR5633035/SRR5633035_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:13:59 [[1;32mNOTICE[0m] Download GID#886b3983052cc1a5 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633035/SRR5633035_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+886b39|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633035/SRR5633035_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633036 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633036/SRR5633036_1.fastq.gz
+
+08/27 04:14:00 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633036/SRR5633036_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:00 [[1;32mNOTICE[0m] Download GID#9f257b03441d25d5 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633036/SRR5633036_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+9f257b|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633036/SRR5633036_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633036/SRR5633036_2.fastq.gz
+
+08/27 04:14:01 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633036/SRR5633036_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:01 [[1;32mNOTICE[0m] Download GID#b1fd5503a16a8238 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633036/SRR5633036_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+b1fd55|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633036/SRR5633036_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633038 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633038/SRR5633038_1.fastq.gz
+
+08/27 04:14:02 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633038/SRR5633038_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:02 [[1;32mNOTICE[0m] Download GID#0a1410d0550c20a4 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633038/SRR5633038_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+0a1410|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633038/SRR5633038_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633038/SRR5633038_2.fastq.gz
+
+08/27 04:14:03 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633038/SRR5633038_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:03 [[1;32mNOTICE[0m] Download GID#4611cb23b197907b not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633038/SRR5633038_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+4611cb|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633038/SRR5633038_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633039 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/009/SRR5633039/SRR5633039_1.fastq.gz
+
+08/27 04:14:04 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/009/SRR5633039/SRR5633039_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:04 [[1;32mNOTICE[0m] Download GID#f91239c95265adbc not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633039/SRR5633039_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+f91239|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633039/SRR5633039_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/009/SRR5633039/SRR5633039_2.fastq.gz
+
+08/27 04:14:04 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/009/SRR5633039/SRR5633039_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:04 [[1;32mNOTICE[0m] Download GID#3930d91ed08f7b1b not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633039/SRR5633039_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+3930d9|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633039/SRR5633039_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633040 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/000/SRR5633040/SRR5633040_1.fastq.gz
+
+08/27 04:14:05 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/000/SRR5633040/SRR5633040_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:05 [[1;32mNOTICE[0m] Download GID#8fda1ced6df47700 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633040/SRR5633040_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+8fda1c|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633040/SRR5633040_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/000/SRR5633040/SRR5633040_2.fastq.gz
+
+08/27 04:14:06 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/000/SRR5633040/SRR5633040_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:06 [[1;32mNOTICE[0m] Download GID#8f0591b3017881b5 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633040/SRR5633040_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+8f0591|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633040/SRR5633040_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633042 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/002/SRR5633042/SRR5633042_1.fastq.gz
+
+08/27 04:14:07 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/002/SRR5633042/SRR5633042_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:07 [[1;32mNOTICE[0m] Download GID#018126c6a8214842 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633042/SRR5633042_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+018126|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633042/SRR5633042_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/002/SRR5633042/SRR5633042_2.fastq.gz
+
+08/27 04:14:08 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/002/SRR5633042/SRR5633042_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:08 [[1;32mNOTICE[0m] Download GID#e95b93d3debf3cd5 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633042/SRR5633042_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+e95b93|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633042/SRR5633042_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633043 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/003/SRR5633043/SRR5633043_1.fastq.gz
+
+08/27 04:14:09 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/003/SRR5633043/SRR5633043_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:09 [[1;32mNOTICE[0m] Download GID#18401ad413417f22 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633043/SRR5633043_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+18401a|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633043/SRR5633043_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/003/SRR5633043/SRR5633043_2.fastq.gz
+
+08/27 04:14:10 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/003/SRR5633043/SRR5633043_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:10 [[1;32mNOTICE[0m] Download GID#db4419af46970a0e not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633043/SRR5633043_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+db4419|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633043/SRR5633043_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633044 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633044/SRR5633044_1.fastq.gz
+
+08/27 04:14:11 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633044/SRR5633044_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:11 [[1;32mNOTICE[0m] Download GID#b6e131743115f9f9 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633044/SRR5633044_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+b6e131|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633044/SRR5633044_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633044/SRR5633044_2.fastq.gz
+
+08/27 04:14:12 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/004/SRR5633044/SRR5633044_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:12 [[1;32mNOTICE[0m] Download GID#9cc745d03defd9d0 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633044/SRR5633044_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+9cc745|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633044/SRR5633044_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633046 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633046/SRR5633046_1.fastq.gz
+
+08/27 04:14:13 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633046/SRR5633046_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:13 [[1;32mNOTICE[0m] Download GID#6132b6df45e10259 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633046/SRR5633046_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+6132b6|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633046/SRR5633046_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633046/SRR5633046_2.fastq.gz
+
+08/27 04:14:13 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/006/SRR5633046/SRR5633046_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:13 [[1;32mNOTICE[0m] Download GID#04cea256b626cc55 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633046/SRR5633046_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+04cea2|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633046/SRR5633046_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633047 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/007/SRR5633047/SRR5633047_1.fastq.gz
+
+08/27 04:14:14 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/007/SRR5633047/SRR5633047_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:14 [[1;32mNOTICE[0m] Download GID#3500c60f130015b9 not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633047/SRR5633047_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+3500c6|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633047/SRR5633047_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/007/SRR5633047/SRR5633047_2.fastq.gz
+
+08/27 04:14:15 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/007/SRR5633047/SRR5633047_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:15 [[1;32mNOTICE[0m] Download GID#ed118eaf0d37d99d not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633047/SRR5633047_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+ed118e|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633047/SRR5633047_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
+Processing SRR5633048 ...
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633048/SRR5633048_1.fastq.gz
+
+08/27 04:14:16 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633048/SRR5633048_1.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:16 [[1;32mNOTICE[0m] Download GID#0d4a62876e55838d not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633048/SRR5633048_1.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+0d4a62|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633048/SRR5633048_1.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+downloading ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633048/SRR5633048_2.fastq.gz
+
+08/27 04:14:17 [[1;31mERROR[0m] CUID#6 - Download aborted. URI=ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR563/008/SRR5633048/SRR5633048_2.fastq.gz
+Exception: [SocketCore.cc:836] errorCode=1 Failed to receive data, cause: Connection reset by peer
+
+08/27 04:14:17 [[1;32mNOTICE[0m] Download GID#34d5c988067ced3e not complete: /home/shared/Datasets/running_datasets_14/GSE99501/SRR5633048/SRR5633048_2.fastq.gz
+
+Download Results:
+gid   |stat|avg speed  |path/URI
+======+====+===========+=======================================================
+34d5c9|ERR |       0B/s|/home/shared/Datasets/running_datasets_14/GSE99501/SRR5633048/SRR5633048_2.fastq.gz
+
+Status Legend:
+(ERR):error occurred.
+
+aria2 will resume download if the transfer is restarted.
+If there are any errors, then see the log file. See '-l' option in help/man page for details.
+Usage: kallisto quant [arguments] FASTQ-files
+
+Required arguments:
+-i, --index=STRING            Filename for the kallisto index to be used for
+                              quantification
+-o, --output-dir=STRING       Directory to write output to
+
+Optional arguments:
+    --bias                    Perform sequence based bias correction
+-b, --bootstrap-samples=INT   Number of bootstrap samples (default: 0)
+    --seed=INT                Seed for the bootstrap sampling (default: 42)
+    --plaintext               Output plaintext instead of HDF5
+    --single                  Quantify single-end reads
+-l, --fragment-length=DOUBLE  Estimated average fragment length
+-s, --sd=DOUBLE               Estimated standard deviation of fragment length
+                              (default: value is estimated from the input data)
+-t, --threads=INT             Number of threads to use (default: 1)
+    --pseudobam               Output pseudoalignments in SAM format to stdout
+123
